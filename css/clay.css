@@ -1,0 +1,100 @@
+:root{
+    --orange:#e2791e;
+    --white:rgb(255,255,255);
+    --black:rgb(0,0,0);
+    --brown: #575757 
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+#top{
+    text-decoration: none;
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+}
+li i{
+    padding: 0.8rem;
+}
+.nav-link{
+    color: ;
+    font-size: 1.2rem;
+}
+.nav-link:hover{
+    color: rgba(223, 219, 219, 0.7);
+}
+.scroll{
+    background-color: rgba(0, 0, 0, 1);
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    top: 0;  
+    box-shadow: 2px 0px 2px 3px  rgba(0, 0, 0, 0.7);
+}
+#nav{
+   
+}
+.gif{
+   background-image: url('../img/bricks-background2.gif');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    max-width: 100%;
+    max-height: auto;
+}
+#btn:hover{
+    background-color: transparent;
+}
+#btn2:hover{
+    background-color: transparent;
+}
+#who{
+    word-spacing: 2vh;
+}
+#btn1:hover{
+    background-color: transparent;
+    color: black;
+}
+.img{
+    
+    max-width: 100%;
+   
+}
+.advan2{
+    max-width: 100%;
+}
+.advan1{
+    /* padding: 2rem; */
+    /* font-family: Lato; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px !important;
+    line-height: 30px; 
+    text-align: justify;
+    color: #575757;
+    padding-right:;
+    /* justify-content: space-evenly; */
+}
+.ad{
+    /* font-family: Lato; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px !important;
+    line-height: 43px; 
+    text-align: justify;
+    color: #575757;
+    padding-right: 2rem;
+}
+.box2{
+    background-color: var(--brown);
+}
+.about3{
+    text-align: center;
+    color: #575757; 
+    font-style: normal;
+    font-weight: normal;
+}
+@media screen and (max-width:)

@@ -1,0 +1,37 @@
+:root{
+    --orange:#e2791e;
+    --white:rgb(255,255,255);
+    --black:rgb(0,0,0);
+    --brown: #575757 
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.ture{
+    background-image: url('../img/IMG_1102-2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    background-attachment: fixed; 
+    max-width: 100%;
+    max-height: auto;
+    opacity: 100%;
+}
+.for{
+    border: 1px solid red;
+    /* max-width: 100%; */
+}
+#word{
+    font-size: 20px;
+    justify-content: space-evenly;
+    color: #212529;
+}
+#sma{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+#sma:hover{
+    color: rgba(223, 219, 219, 0.7);
+}

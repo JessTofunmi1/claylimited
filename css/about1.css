@@ -1,0 +1,43 @@
+:root{
+    --orange:#e2791e;
+    --white:rgb(255,255,255);
+    --black:rgb(0,0,0);
+    --brown: #575757 
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.pic{
+    background-image: url('../img/brickmasonry.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    max-width: 100%;
+    max-height: auto;
+    opacity: 100%;
+}
+#sma{
+    color: #000;
+    text-decoration: none;
+    font-size: 25px;
+   
+
+}
+#sma:hover{
+    color: rgba(223, 219, 219, 0.7);
+}
+.miss{
+    background-image: url('../img/78ed519167850b8712511b9bc99e6233.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+    max-width: 100%;
+    max-height: auto;
+    opacity: 80%;
+}
+.box1{
+    background-color: var(--brown);
+}
